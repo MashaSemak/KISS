@@ -1702,11 +1702,14 @@ section {
 
 
 
+
 .hw_page {
     display: flex;
     align-content: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20%;
+    margin-left: 50vh;
 }
 
 
@@ -1716,6 +1719,7 @@ section {
     font-family: 'DIENASTY';
     font-size: 30px;
     transition: 0.5s;
+   
 
 }
 
@@ -1726,4 +1730,8 @@ section {
     font-size: 30px;
     transition: 0.5s;
 
+}
+
+.s_div {
+    margin-top: 10px;
 }
