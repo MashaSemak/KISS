@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="final_js_algorythm/alg.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/star.png">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_inner">
+            <div class="kiss_logo"><img src="images/kiss_logo_png.png" alt="kiss-logo" height="40px"></div>
+        </div>
+    </header>
+    <!-- основная часть -->
+
+
+
+    <div class="wrapper">
+
+
+        <div class="content">
+
+
+            <div class="page_alg">
+                <div class="alg">
+                    <form action="https://www.google.com/?hl=RU" method="get" id="form" target="_blank">
+                        <a id="zakladka"></a>
+
+                        <div><input hidden name="q" value="search"></div>
+                        <div>
+                            <p></p>
+                            <div class="font_settings_alg find_x">FIND X</div>
+                            <p> Дано вещественное число A.<br>
+                                x = a<sup>4</sup>, при a < 10<br>
+                                    x=a при a> 61<br>
+                                    в противном случае x = a − sin(a<sup>2</sup>)<input hidden name="formulation"
+                                        value="вычислить Х при заданном условии"></p>
+                        </div>
+
+                        <div>a = <input class="input only_kiss_font" id="a" name="a" type="number" step="0.00001"></div><br>
+
+                        <div><input class="button" id="count" type="button" value="result"></div>
+
+                        <p id="result"> x = </p>
+
+                        <div><input id="x" name="x" type="number" step="0.00001" value="0" hidden></div>
+
+
+                        <button class="button" id="send">send</button>
+                        <p></p>
+                    </form>
+                </div>
+            </div>
+
+            <script src="./final_js_algorythm/code.js"></script>
+            <script src="script2.js"></script>
+</body>
+
+
+</html>
