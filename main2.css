@@ -1699,3 +1699,31 @@ section {
     transform: scale(1.1);
     opacity: 0;
 }
+
+
+
+.hw_page {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.emae{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'DIENASTY';
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+.emae:hover{
+    text-decoration: none;
+    color: #d20707;
+    font-family: 'DIENASTY';
+    font-size: 30px;
+    transition: 0.5s;
+
+}
